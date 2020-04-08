@@ -8,7 +8,7 @@ h2{
     margin-left:20px;
 }
 div{
-    background-color:#F0B2D5;
+    background-color:rgb(240, 181, 229);
 }
 td{
     text-align:center;
@@ -24,6 +24,7 @@ img{
 table{
     border:2px solid black;
     border-collapse: collapse;
+    margin-left:20px;
 }
 th,td{
     border:1px solid black;
@@ -31,7 +32,4 @@ th,td{
 }
 th{
     background-color: rgb(140, 78, 119);
-}
-p{
-    padding:40px;
 }
