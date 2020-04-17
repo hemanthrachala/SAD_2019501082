@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>
+            Registration
+        </title>
+        <style>
+            body{
+                text-align: center;
+            }
+            h1{
+                color: rgb(220, 137, 37);
+            }
+            #reg{
+                
+                width:35%;
+                margin: auto;
+                border: 3px solid rgb(52, 31, 31);
+                border-radius: 3px;
+                background-color: rgb(47, 59, 55);
+                padding: 20px;
+                color:rgb(232, 238, 238);
+                font-size: 20px;
+                font-style: italic;
+            }
+
+        </style>
+        
+    </head>
+
+    <body background="image.jfif">
+        <h1>Registration form</h1>
+        <form id="reg" method = "post" action="{{url_for('user_ack')}}">
+            <h2>Register Here</h2>
+            Username : <input type= "text" name = "name"
+            id = "name"><br><br>
+            Password : <input type= "password" name = "password"
+            id = "name"><br><br>
+            Email : <input type= "email" name = "email"
+            id = "name"><br><br>
+            Mobile Number : <input type= "number" name = "number"
+            id = "name"><br><br>
+            <button type="submit">Register</button>
+
+
+        </form>
+    </body>
