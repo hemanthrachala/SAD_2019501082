@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+        <style>
+            .wrapper {
+                text-align: center;
+            }
+            .button {
+                position: absolute;
+                top: 50%;
+            }
+            h1{
+                color: brown;
+            }
+            p{
+                color: rgb(216, 111, 111);
+            }
+        </style>
+    </head>
+    <body>
+
+        <form>
+        
+        <div class="wrapper">
+            <h1>Welcome to the Login Page</h1>
+            <p>{{username}}</p>
+            <button class="button" type="submit" formaction="{{url_for('logout')}}">Logout</button>
+        </div>
+        </form>
+    </body>
+</html>
